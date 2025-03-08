@@ -11,7 +11,7 @@ jobs:
       - name: Install VuePress
         run: npm install -g vuepress
       - name: Build VuePress
-        run: vuepress build docs
+        run: npm run docs:build
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@4.1.1
         with:
