@@ -1,0 +1,19 @@
+name: Deploy to GitHub Pages
+
+on: [push]  # 触发事件
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+      - name: Install VuePress
+        run: npm install -g vuepress
+      - name: Build VuePress
+        run: vuepress build docs
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages  # 部署分支
+          folder: .vuepress/dist  # 部署文件夹
