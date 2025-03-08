@@ -11,9 +11,9 @@ jobs:
       - name: corepack enable
         run: corepack enable
       - name: Install VuePress
-        run: npm install vuepress@latest --save
+        run: npm install vuepress@latest --force
       - name: Install vuepress-theme-hope
-        run: npm install vuepress-theme-hope@latest --save
+        run: npm install vuepress-theme-hope@latest --force
       - name: Build VuePress
         run: npm run docs:build
       - name: Deploy to GitHub Pages
