@@ -8,8 +8,12 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+      - name: corepack enable
+        run: corepack enable
       - name: Install VuePress
-        run: npm install -g vuepress
+        run: npm install vuepress@latest --save
+      - name: Install vuepress-theme-hope
+        run: npm install vuepress-theme-hope@latest --save
       - name: Build VuePress
         run: npm run docs:build
       - name: Deploy to GitHub Pages
