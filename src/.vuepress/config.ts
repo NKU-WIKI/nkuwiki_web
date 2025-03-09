@@ -3,7 +3,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 
 export default defineUserConfig({
-  base: "/NKU-WIKI/nkuwiki_web/",
+  base: "/nkuwiki_web/",
 
   lang: "zh-CN",
   title: "南开WIKI",
