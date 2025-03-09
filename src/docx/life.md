@@ -63,7 +63,7 @@ footer: 南开新生指南
 
 ### 地图
 ![地图1](/img/balitai_map.png)
-[南开大学八里台校区地图.pdf](/otherfiles/南开大学八里台校区地图.pdf)
+[南开大学八里台校区地图.pdf](../otherfiles/南开大学八里台校区地图.pdf)
 ![地图2](/img/jinnan_map.png)
-[南开大学津南校区手绘地图.pdf](/otherfiles/南开大学津南校区手绘地图.pdf)
+[南开大学津南校区手绘地图.pdf](../otherfiles/南开大学津南校区手绘地图.pdf)
 

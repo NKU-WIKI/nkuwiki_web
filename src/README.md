@@ -2,7 +2,7 @@
 home: true
 icon: home
 title: 主页
-heroImage: ./img/home.png
+heroImage: /img/home.png
 bgImageStyle:
   background-attachment: fixed
 heroText: NKUwiki · 南开WIKI
