@@ -4,7 +4,7 @@ title: 地图
 # 这是页面的图标
 icon: majesticons:book-plus
 # 这是侧边栏的顺序
-order: 1
+order: 6
 # 设置作者
 author: Because
 # 设置写作时间
@@ -20,8 +20,8 @@ footer: 地图
 ---
 ## 八里台地图
 ![地图1](/img/balitai_map.png)
-[南开大学八里台校区地图.pdf](/otherfiles/南开大学八里台校区地图.pdf)
+[南开大学八里台校区地图.pdf](../otherfiles/南开大学八里台校区地图.pdf)
 ## 津南地图
 ![地图2](/img/jinnan_map.png)
-[南开大学津南校区手绘地图.pdf](/otherfiles/南开大学津南校区手绘地图.pdf)
+[南开大学津南校区手绘地图.pdf](../otherfiles/南开大学津南校区手绘地图.pdf)
 
