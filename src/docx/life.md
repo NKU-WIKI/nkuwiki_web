@@ -4,7 +4,7 @@ title: 南开新生指南
 # 这是页面的图标
 icon: majesticons:book-plus
 # 这是侧边栏的顺序
-order: 1
+order: 3
 # 设置作者
 author: Because
 # 设置写作时间
@@ -51,8 +51,16 @@ footer: 南开新生指南
   link: https://mp.weixin.qq.com/s/U0FBeX6OrI265T4D2MlLSA
   background: rgba(253, 230, 138, 0.15)
   ```
+## 学在南开-南开学业指南
+  ```component VPCard
+  title: 学在南开-南开学业指南
+  desc: 飞书文档
+  logo: /img/feishu.png
+  link: https://nankai.feishu.cn/wiki/JuGZwjra0iXPIPkhC6Sc76OunWc?from=from_copylink
+  background: rgba(253, 230, 138, 0.15)
+  ```
 
-## 一些资源
+## 校园网登录
   ```component VPCard
   title: 登录校园网
   desc: 校园网登录界面
@@ -61,7 +69,7 @@ footer: 南开新生指南
   background: rgba(253, 230, 138, 0.15)
   ```
 
-### 地图
+## 地图
 ![地图1](/img/balitai_map.png)
 [南开大学八里台校区地图.pdf](../otherfiles/南开大学八里台校区地图.pdf)
 ![地图2](/img/jinnan_map.png)
